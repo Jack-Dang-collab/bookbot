@@ -45,11 +45,6 @@ def get_chars_dict(text):
     return chars
 
 
-def get_character_sums(text):
-    words = text.split()
-    return len(words)
-
-
 def get_book_text(path):
     with open(path) as f:
         return f.read()
